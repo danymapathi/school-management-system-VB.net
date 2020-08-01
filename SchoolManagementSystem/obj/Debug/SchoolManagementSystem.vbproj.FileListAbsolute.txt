@@ -1,0 +1,82 @@
+c:\users\arsene\documents\visual studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.exe.config
+c:\users\arsene\documents\visual studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.exe
+c:\users\arsene\documents\visual studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.pdb
+c:\users\arsene\documents\visual studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.xml
+c:\users\arsene\documents\visual studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.vbprojResolveAssemblyReference.cache
+c:\users\arsene\documents\visual studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\MainLoad.g.vb
+c:\users\arsene\documents\visual studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\MainWindow.g.vb
+c:\users\arsene\documents\visual studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\Application.g.vb
+c:\users\arsene\documents\visual studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem_MarkupCompile.cache
+c:\users\arsene\documents\visual studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem_MarkupCompile.lref
+c:\users\arsene\documents\visual studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\MainLoad.baml
+c:\users\arsene\documents\visual studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\MainWindow.baml
+c:\users\arsene\documents\visual studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.g.resources
+c:\users\arsene\documents\visual studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Resources.resources
+c:\users\arsene\documents\visual studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.vbproj.GenerateResource.Cache
+c:\users\arsene\documents\visual studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.exe
+c:\users\arsene\documents\visual studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.xml
+c:\users\arsene\documents\visual studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.pdb
+C:\Users\Tish eAg\Downloads\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.exe.config
+C:\Users\Tish eAg\Downloads\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.exe
+C:\Users\Tish eAg\Downloads\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.pdb
+C:\Users\Tish eAg\Downloads\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.xml
+C:\Users\Tish eAg\Downloads\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\AddMember.g.vb
+C:\Users\Tish eAg\Downloads\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\AddStudent.g.vb
+C:\Users\Tish eAg\Downloads\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\Dashboard.g.vb
+C:\Users\Tish eAg\Downloads\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\Fees.g.vb
+C:\Users\Tish eAg\Downloads\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\MainLoad.g.vb
+C:\Users\Tish eAg\Downloads\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\MainWindow.g.vb
+C:\Users\Tish eAg\Downloads\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\Staff.g.vb
+C:\Users\Tish eAg\Downloads\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\Students.g.vb
+C:\Users\Tish eAg\Downloads\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\Application.g.vb
+C:\Users\Tish eAg\Downloads\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem_MarkupCompile.cache
+C:\Users\Tish eAg\Downloads\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem_MarkupCompile.lref
+C:\Users\Tish eAg\Downloads\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\AddMember.baml
+C:\Users\Tish eAg\Downloads\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\AddStudent.baml
+C:\Users\Tish eAg\Downloads\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\Dashboard.baml
+C:\Users\Tish eAg\Downloads\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\Fees.baml
+C:\Users\Tish eAg\Downloads\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\MainLoad.baml
+C:\Users\Tish eAg\Downloads\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\MainWindow.baml
+C:\Users\Tish eAg\Downloads\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\Staff.baml
+C:\Users\Tish eAg\Downloads\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\Students.baml
+C:\Users\Tish eAg\Downloads\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.g.resources
+C:\Users\Tish eAg\Downloads\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Resources.resources
+C:\Users\Tish eAg\Downloads\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.vbproj.GenerateResource.Cache
+C:\Users\Tish eAg\Downloads\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.exe
+C:\Users\Tish eAg\Downloads\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.xml
+C:\Users\Tish eAg\Downloads\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.pdb
+C:\Users\Tish eAg\Downloads\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\Dashboard_RD.baml
+C:\Users\Tish eAg\Downloads\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.vbprojResolveAssemblyReference.cache
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.exe.config
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.exe
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.xml
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.pdb
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.exe
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.pdb
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.xml
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.vbprojResolveAssemblyReference.cache
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\AddMember.g.vb
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\AddStudent.g.vb
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\Dashboard.g.vb
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\Fees.g.vb
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\MainLoad.g.vb
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\MainWindow.g.vb
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\Staff.g.vb
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\Students.g.vb
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\Application.g.vb
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem_MarkupCompile.cache
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem_MarkupCompile.lref
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\AddMember.baml
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\AddStudent.baml
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\Dashboard.baml
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\Dashboard_RD.baml
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\Fees.baml
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\MainLoad.baml
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\MainWindow.baml
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\Staff.baml
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\Students.baml
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.g.resources
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Resources.resources
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.vbproj.GenerateResource.Cache
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.exe.CodeAnalysisLog.xml
+E:\VB PROJECT\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.exe.lastcodeanalysissucceeded

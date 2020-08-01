@@ -1,0 +1,34 @@
+﻿<Window x:Class="MainLoad"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SchoolManagementSystem"
+        mc:Ignorable="d"
+        Title="MainLoad" Height="640" Width="995" WindowStartupLocation="CenterScreen" Loaded="MainFormLoadedEvent" Background="#FF1C2125">
+        <Grid>
+                <StackPanel Orientation="Vertical">
+                    <Menu  Background="LightGray" Height="20" VerticalAlignment="Top" >
+                        <MenuItem Header="_File" FontSize="14">
+                            <!--the sub menu items of file menu-->
+                            <MenuItem Header="_Log In" Click="logIn_MenuItem_Click_Event"  />
+                            <Separator Background="Black"/>
+                            <MenuItem Header="_Exit" Click="Exit_MenuItem_Click_Event" />
+                        </MenuItem>
+                        <MenuItem Header="_Options" FontSize="14" >
+                            <!--the sub menu items of file menu-->
+                            <MenuItem Header="_Dashboard" Click="DashBoard_MenuItem_ClickEvent"  />
+                            <Separator Background="Black"/>
+                            <MenuItem Header="_Staff" Click="Staff_MenuItem_ClickEvent"  />
+                            <MenuItem Header="_Students" Click="Student_MenuItem_ClickEvent"  />
+
+                        </MenuItem>
+                    </Menu>
+                    <Border Height="580">
+                        <Frame Name="MainLoadFrame" NavigationUIVisibility="Hidden"/>
+
+                      </Border>
+                </StackPanel>
+            </Grid>
+    
+</Window>

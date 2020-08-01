@@ -1,0 +1,190 @@
+﻿<UserControl x:Class="Staff"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SchoolManagementSystem"
+             mc:Ignorable="d" Height="580" Width="995" Loaded="staff_loaded">
+    <UserControl.Resources>
+        <Style x:Key="FocusVisual">
+            <Setter Property="Control.Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Rectangle Margin="2" SnapsToDevicePixels="true" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" StrokeThickness="1" StrokeDashArray="1 2"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <SolidColorBrush x:Key="Button.Static.Background" Color="#FFDDDDDD"/>
+        <SolidColorBrush x:Key="Button.Static.Border" Color="#FF707070"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFBEE6FD"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FF3C7FB1"/>
+        <SolidColorBrush x:Key="Button.Pressed.Background" Color="#FFC4E5F6"/>
+        <SolidColorBrush x:Key="Button.Pressed.Border" Color="#FF2C628B"/>
+        <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4"/>
+        <SolidColorBrush x:Key="Button.Disabled.Border" Color="#FFADB2B5"/>
+        <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="#FF838383"/>
+        <Style x:Key="updateBtn" TargetType="{x:Type Button}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+            <Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border BorderBrush="#FF007ACC" BorderThickness="1" CornerRadius="20" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="90" Margin="0,0,0,-5">
+                            <Label Content="Update" VerticalContentAlignment="Center" HorizontalAlignment="Center" FontSize="17" Foreground="#FF007ACC" Background="#00000000"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsDefaulted" Value="true"/>
+                            <Trigger Property="IsMouseOver" Value="true"/>
+                            <Trigger Property="IsPressed" Value="true"/>
+                            <Trigger Property="IsEnabled" Value="false"/>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="fireBtn" TargetType="{x:Type Button}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+            <Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border BorderBrush="Red" BorderThickness="1" CornerRadius="20" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="90" Margin="0,0,0,-5">
+                            <Label Content="Delete" VerticalContentAlignment="Center" HorizontalAlignment="Center" FontSize="17" Foreground="Red"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsDefaulted" Value="true"/>
+                            <Trigger Property="IsMouseOver" Value="true"/>
+                            <Trigger Property="IsPressed" Value="true"/>
+                            <Trigger Property="IsEnabled" Value="false"/>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+    <Grid Background="White">
+        <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal" Height="60" VerticalAlignment="Top" Background="#FFEEEEF2">
+                <TextBox x:Name="_searchStaffField" Height="25" Width="400" Margin="40,0,0,0" BorderBrush="#FF007ACC"/>
+                <Button x:Name="_searchStaffBtn" Content="Search" Width="80" Height="25" Background="White" BorderBrush="#FF007ACC" />
+                <Button Content="Add Member" Width="120" Height="25" HorizontalAlignment="Right" Margin="300,0,0,0" Background="White" BorderBrush="#FF007ACC" Click="AddMember_Button_Click_Event" />
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="519" Background="#FFC2C3C9" >
+                <Border Width="980" BorderThickness="1,2,0,0" BorderBrush="#FF3399FF" Background="#FFC2C3C9">
+                    <Grid>
+                        <DataGrid x:Name="_dataGrid" Margin="0,0,682,0" AutoGenerateColumns="False">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Names" Binding="{Binding teacherfull_name}"  Width="293" CanUserReorder="False" CanUserResize="False">
+                                    <DataGridTextColumn.HeaderStyle>
+                                        <Style TargetType="{x:Type DataGridColumnHeader}">
+                                            <Setter Property="Background" Value="White"/>
+                                            <Setter Property="Foreground" Value="#FF293955" />
+                                            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                                            <Setter Property="FontWeight" Value="Normal"/>
+                                            <Setter Property="FontSize" Value="15"/>
+                                            <Setter Property="BorderBrush" Value="White"/>
+                                            <Setter Property="BorderThickness" Value="1,1,0,0"/>
+                                            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                                        </Style>
+                                    </DataGridTextColumn.HeaderStyle>
+                                </DataGridTextColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                        <Border Margin="327,10,31,0" CornerRadius="30" BorderThickness="1" BorderBrush="White" Background="White" Height="190" VerticalAlignment="Top" >
+                            <Canvas Background="White" Margin="18,9,19,9">
+                                <Border Width="113" Background="#FFEEEEEE" Canvas.Left="50" Canvas.Top="25" Height="124.28" >
+                                    <Image x:Name="image" />
+                                </Border>
+                                <Label x:Name="label" Content="Id" Canvas.Left="189" Canvas.Top="25" FontSize="16"/>
+                                <Label x:Name="label_Copy" Content="Name" Canvas.Left="189" Canvas.Top="56" FontSize="16"/>
+                                <Label x:Name="label_Copy1" Content="Degree" Canvas.Left="189" Canvas.Top="87" FontSize="16"/>
+                                <TextBox x:Name="_idField" Height="26" Canvas.Left="323" TextWrapping="Wrap"  Canvas.Top="25" Width="212" FontSize="16"/>
+                                <TextBox x:Name="_nemesField" Height="26" Canvas.Left="323" TextWrapping="Wrap"  Canvas.Top="56" Width="212" FontSize="16"/>
+                                <TextBox x:Name="_qualField" Height="26" Canvas.Left="323" TextWrapping="Wrap"  Canvas.Top="87" Width="212" FontSize="16"/>
+                                <Label x:Name="label_Copy2" Content="Salary" Canvas.Left="189" Canvas.Top="118" FontSize="16"/>
+                                <TextBox x:Name="_salField" Height="26" Canvas.Left="323" TextWrapping="Wrap"  Canvas.Top="118" Width="212" FontSize="16"/>
+
+                            </Canvas>
+                        </Border>
+                        <Label Content="Check  Subject - Class - Section" Height="27" Margin="327,248,31,0" BorderThickness="1" BorderBrush="#FF3399FF" VerticalAlignment="Top"/>
+                        <DataGrid x:Name="_subCS_dg" Margin="327,280,232,0" Height="156" VerticalAlignment="Top" AutoGenerateColumns="False" BorderBrush="#FF000003">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Subject" Binding="{Binding subjectName}" Width="217" CanUserReorder="False" CanUserResize="False">
+                                    <DataGridTextColumn.HeaderStyle>
+                                        <Style TargetType="{x:Type DataGridColumnHeader}">
+                                            <Setter Property="BorderThickness" Value="0,0,1,1"/>
+                                            <Setter Property="BorderBrush" Value="Black"/>
+                                            <Setter Property="Background" Value="White"/>
+                                            <Setter Property="Foreground" Value="#FF293955" />
+                                            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                                            <Setter Property="FontWeight" Value="Normal"/>
+                                            <Setter Property="FontSize" Value="12"/>
+                                            
+
+                                        </Style>
+                                    </DataGridTextColumn.HeaderStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Header="Class" Binding="{Binding className}" Width="201" CanUserReorder="False" CanUserResize="False">
+                                    <DataGridTextColumn.HeaderStyle>
+                                        <Style TargetType="{x:Type DataGridColumnHeader}">
+
+                                            <Setter Property="BorderThickness" Value="0,0,0,1"/>
+                                            <Setter Property="BorderBrush" Value="Black"/>
+                                            <Setter Property="Background" Value="White"/>
+                                            <Setter Property="Foreground" Value="#FF293955" />
+                                            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                                            <Setter Property="FontWeight" Value="Normal"/>
+                                            <Setter Property="FontSize" Value="12"/>
+                                           
+
+                                        </Style>
+                                    </DataGridTextColumn.HeaderStyle>
+                                </DataGridTextColumn>
+
+                            </DataGrid.Columns>
+                        </DataGrid>
+                        <DataGrid Margin="747,280,31,81" Name="sectionDg" BorderBrush="#FF000003" AutoGenerateColumns="False">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Section" Binding="{Binding sectionName}" Width="200" CanUserReorder="False" CanUserResize="False">
+                                    <DataGridTextColumn.HeaderStyle>
+                                        <Style TargetType="{x:Type DataGridColumnHeader}">
+                                            <Setter Property="Background" Value="White"/>
+                                            <Setter Property="Foreground" Value="#FF293955" />
+                                            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                                            <Setter Property="FontWeight" Value="Normal"/>
+                                            <Setter Property="FontSize" Value="12"/>
+                                            <Setter Property="BorderThickness" Value="0,0,1,1"/>
+                                            <Setter Property="BorderBrush" Value="Black"/>
+                                            
+                                        </Style>
+                                    </DataGridTextColumn.HeaderStyle>
+                                </DataGridTextColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                        <Button x:Name="UpdateBtn" Content="Update" Width="90" Height="30" FontSize="17" Margin="556,206.462,333,0" Style="{DynamicResource updateBtn}" VerticalAlignment="Top" />
+                        <Button x:Name="fireBtn" Content="Fire" Width="90" Height="30" FontSize="17" Margin="661,206.462,228,0" Style="{DynamicResource fireBtn}" VerticalAlignment="Top"/>
+                        <Label Content="Attribute A Course" Height="27" Margin="327,454,522,0" BorderThickness="1" BorderBrush="#FF3399FF" VerticalAlignment="Top"/>
+                        <TextBox x:Name="_attributeField" TextWrapping="Wrap" FontSize="16" Margin="462,454,305,37"/>
+                        <Button x:Name="attributeCourseBtn" Content="Attribute" Height="27" VerticalAlignment="Bottom" Width="100" Margin="679,0,200,37" Background="White" BorderBrush="#FF3399FF"/>
+                    </Grid>
+                </Border>
+
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</UserControl>

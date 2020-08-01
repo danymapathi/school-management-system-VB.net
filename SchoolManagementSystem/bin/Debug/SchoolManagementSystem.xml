@@ -1,0 +1,153 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SchoolManagementSystem
+</name>
+</assembly>
+<members>
+<member name="T:SchoolManagementSystem.AddMember">
+<summary>
+AddMember
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.AddMember.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.AddStudent">
+<summary>
+AddStudent
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.AddStudent.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.Fees">
+<summary>
+Fees
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.Fees.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.Staff">
+<summary>
+Staff
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.Staff.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.Students">
+<summary>
+Students
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.Students.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.Application">
+<summary>
+Application
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.Application.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.Application.Main">
+<summary>
+Application Entry Point.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.Dashboard">
+<summary>
+Dashboard
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.Dashboard.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.MainLoad">
+<summary>
+MainLoad
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.MainLoad.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.MainWindow">
+<summary>
+MainWindow
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.MainWindow.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.My.MyWpfExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for WPF
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:SchoolManagementSystem.My.MyWpfExtension.Application">
+ <summary>
+ Returns the application object for the running application
+ </summary>
+</member>
+<member name="P:SchoolManagementSystem.My.MyWpfExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:SchoolManagementSystem.My.MyWpfExtension.User">
+ <summary>
+ Returns information for the current user.  If you wish to run the application with the current 
+ Windows user credentials, call My.User.InitializeWithWindowsUser().
+ </summary>
+</member>
+<member name="P:SchoolManagementSystem.My.MyWpfExtension.Log">
+ <summary>
+ Returns the application log. The listeners can be configured by the application's configuration file.
+ </summary>
+</member>
+<member name="P:SchoolManagementSystem.My.MyWpfExtension.Windows">
+ <summary>
+ Returns the collection of Windows defined in the project.
+ </summary>
+</member>
+<member name="T:SchoolManagementSystem.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SchoolManagementSystem.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SchoolManagementSystem.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+</members>
+</doc>
